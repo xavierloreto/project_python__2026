@@ -17,7 +17,6 @@ def calcular_custo(mensal, preco):
     return mensal * preco
 
 def main():
-    # Tudo o que está aqui abaixo tem de ter 4 espaços à esquerda
     preco_kwh = 0.22
     
     eletrodomesticos = [
