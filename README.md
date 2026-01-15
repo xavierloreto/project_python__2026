@@ -17,6 +17,7 @@ Este projeto foi desenvolvido para a disciplina introdução ao Python e tem com
 
 ## Como Executar
 * Instale as dependências:
-* Instale o pytest: `pip install -r requirements.txt`
+* Instale o pytest: `pip install pytest`
 * Corra o projeto: `python project.py`
 * Teste: `pytest test_project.py`
+
