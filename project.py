@@ -19,7 +19,7 @@ def carregar_dados_sensores(nome_ficheiro):
         with open(nome_ficheiro, mode='r', encoding='utf-8') as f:
             leitor = csv.DictReader(f)
             for linha in leitor:
-                # Os nomes entre parênteses devem ser iguais ao cabeçalho do teu CSV
+                
                 novo = Eletrodomestico(
                     linha['aparelho'].strip(), 
                     linha['potencia_watts'].strip(), 
